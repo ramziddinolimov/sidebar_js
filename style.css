@@ -35,3 +35,12 @@
     height: 100%;
     margin-top: 40px;
 }
+
+.item a,
+.submenu-item {
+    padding: 16px;
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    border-radius: 12px;
+}
