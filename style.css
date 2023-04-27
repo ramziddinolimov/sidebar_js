@@ -99,3 +99,35 @@
 .menu-content::-webkit-scrollbar {
     display: none;
 }
+
+.navbar, .main {
+    left: 260px;
+    width: calc(100% - 260px);
+    transition: all .5s ease;
+    z-index: 1000;
+}
+
+.navbar {
+    position: fixed;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 25px;
+    background-color: #4070f4;
+    cursor: pointer;
+}
+
+.main {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 100;
+    background-color: #e7f2fd;
+}
+
+.sidebar.close ~ .navbar,
+.sidebar.close ~ .main {
+    left: 0;
+    width: 100%;
+}
