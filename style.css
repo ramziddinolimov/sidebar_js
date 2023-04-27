@@ -80,3 +80,7 @@
 .submenu .menu-title i {
     margin-right: 10px;
 }
+
+.show-submenu ~ .submenu {
+    display: block;
+}
