@@ -37,7 +37,8 @@
 }
 
 .item a:hover,
-.submenu-item:hover {
+.submenu-item:hover,
+.submenu .menu-title:hover {
     background-color: rgba(255, 255, 255, .1);
 }
 
@@ -64,4 +65,18 @@
     top: 0;
     right: calc(-100% - 26px);
     background: #11101d;
+    display: none;
+}
+
+.submenu .menu-title {
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.item i {
+    font-size: 12px;
+}
+
+.submenu .menu-title i {
+    margin-right: 10px;
 }
