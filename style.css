@@ -36,11 +36,23 @@
     margin-top: 40px;
 }
 
+.item a:hover,
+.submenu-item:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
 .item a,
 .submenu-item {
     padding: 16px;
-    background-color: red;
     display: inline-block;
     width: 100%;
     border-radius: 12px;
+}
+
+.submenu-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
