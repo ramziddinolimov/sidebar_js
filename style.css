@@ -56,3 +56,12 @@
     align-items: center;
     color: #fff;
 }
+
+.submenu {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: calc(-100% - 26px);
+    background: #11101d;
+}
